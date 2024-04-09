@@ -29,4 +29,4 @@ jobs:
     - name: The job has succeded
       if: ${{success(}}
       run: echo "successfully" 
-  # deploy: 
+    deploy: # cloud
